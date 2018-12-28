@@ -5,14 +5,14 @@
 Summary:	RISC OS sprite files loading library
 Summary(pl.UTF-8):	Biblioteka do odczytu plików sprite z RISC OS
 Name:		librosprite
-Version:	0.1.2
+Version:	0.1.3
 Release:	1
 License:	MIT
 Group:		Libraries
 Source0:	http://download.netsurf-browser.org/libs/releases/%{name}-%{version}-src.tar.gz
-# Source0-md5:	f7e1d6fc34420cc4603f368ed349107d
+# Source0-md5:	2d4d6a2abd4a8e3cda60052c34002a75
 URL:		http://www.netsurf-browser.org/projects/librosprite/
-BuildRequires:	netsurf-buildsystem >= 1.3
+BuildRequires:	netsurf-buildsystem >= 1.7
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
